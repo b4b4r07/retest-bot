@@ -1,0 +1,4 @@
+package: github.com/b4b4r07/travis-bot
+import:
+- package: github.com/Ableton/go-travis
+- package: github.com/nlopes/slack

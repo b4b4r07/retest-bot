@@ -1,0 +1,20 @@
+hash: a229dfc4d12303b447fd89a28943ad948bc0f12fb69662610d23e97c617d51fc
+updated: 2017-01-01T23:02:49.213481909+09:00
+imports:
+- name: github.com/Ableton/go-travis
+  version: 1cdf3cca2f3ac6e6af8df7a2567d8cd0f402c942
+- name: github.com/fatih/structs
+  version: 1de5ce037865f641d8eb22007e31cc5292a54e12
+- name: github.com/google/go-querystring
+  version: 9235644dd9e52eeae6fa48efd539fdc351a0af53
+  subpackages:
+  - query
+- name: github.com/nlopes/slack
+  version: e595e9d8590a04ff76407e4e7d1791d25b095c66
+- name: github.com/oleiade/reflections
+  version: 0e86b3c98b2ff33e30c85cfe97d9a63d439fe7eb
+- name: golang.org/x/net
+  version: 8fd7f25955530b92e73e9e1932a41b522b22ccd9
+  subpackages:
+  - websocket
+testImports: []
