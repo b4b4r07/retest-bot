@@ -52,7 +52,7 @@ func run(api *slack.Client) int {
 					break
 				}
 				for _, attachment := range ev.Attachments {
-					if !strings.Contains(attachment.Text, "retest please") {
+					if !strings.Contains(attachment.Text, "bot: retest please") {
 						continue
 					}
 					pat := pattern.FindStringSubmatch(attachment.Pretext)
